@@ -1,8 +1,13 @@
+:root {
+  --primary-color: black;
+  --secondary-color: whitesmoke;
+}
+
 body {
-  background-color: black;
+  background-color: var(--primary-color);
 }
 .main {
-  background-color: whitesmoke;
+  background-color: var(--secondary-color);
   margin: 20px 10px;
   padding: 35px;
 }
