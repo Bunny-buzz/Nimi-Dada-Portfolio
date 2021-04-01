@@ -12,9 +12,28 @@ body {
   padding: 35px;
 }
 
-.img-thumbnail {
+.about {
+  background-color: var(--secondary-color);
+  margin: 20px;
+  padding: 45px;
+}
+
+.img-fluid {
   max-width: 100%;
   height: 400px;
+  border-radius: 5px;
+  vertical-align: middle;
+  align-items: center;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  line-height: 50000%;
+  font-weight: 1000px;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  line-height: 50px;
+  font-weight: 800px;
 }
 h4 {
   font-family: "Playfair Display", serif;
@@ -45,8 +64,6 @@ p {
   height: 400px;
 }
 
-h3 {
-  font-family: "Playfair Display", serif;
-  line-height: 50px;
-  font-weight: 800px;
+.project {
+  margin: 20px;
 }
